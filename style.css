@@ -30,8 +30,7 @@ body {
     background-size: cover;
     background-position: center;
     height: 100vh;
-    display: flex;
-    flex-direction: column;
+    display: block;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -52,7 +51,7 @@ header {
     text-align: center;
 }
 #section-c {
-    display: flex;
+    display: inline-block;
 }
 #section-c .box-1, #section-c .box-3 {
     background: #926239;
