@@ -51,7 +51,7 @@ header {
     text-align: center;
 }
 #section-c {
-    display: inline-block;
+    display: flex;
 }
 #section-c .box-1, #section-c .box-3 {
     background: #926239;
