@@ -64,6 +64,6 @@ header {
 	margin-right: 5%;
 	font-size: 14px;
 }
-.section-c .box-1 .box-2 .box-3 {
+.section-c .box-1 .box-2 .box-3:last-child {
     margin-right: 0 ;
 }
