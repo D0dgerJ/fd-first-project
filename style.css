@@ -54,18 +54,24 @@ header {
     text-align: center;
 } 
 #section-c {
-    display: ;
+    white-space: nowrap;
+	font-size: 0;
 }
 #section-c .box-1, #section-c .box-3 {
-    background: #926239;
-    color: #fff;
-    padding: 20px
+    white-space: normal;	
+	display: inline-block;
+	width: 30%;
+	vertical-align: top;
+	background: #926239;
+	margin-right: 5%;
+	font-size: 14px;
 }
 #section-c .box-2 {
-    background: #f9f9f9;
-    padding: 20px
+    white-space: normal;	
+	display: inline-block;
+	width: 30%;
+	vertical-align: top;
+	background: #f4f4f4;
+	margin-right: 5%;
+	font-size: 14px;
 }
-#section-c .box-1, #section-c .box-3 {
-    background: #926239;
-    color: #fff;
-    padding: 20px
