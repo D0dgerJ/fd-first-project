@@ -86,6 +86,7 @@ header {
 	border-right: none;
 }
 .grid {
+    padding: 20px;
 	width: 100%;
 	border: none;
 	border-collapse: separate;
