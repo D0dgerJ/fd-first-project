@@ -12,18 +12,13 @@ header {
     text-align: center;
     height: 100vh;
     display: block;
-
 }
 #showcase h1 {
-
     font-size: 50px;
-    line-height: 50vh;
-    vertical-align: bottom;
-    
+    line-height: 500px;
 }
 #showcase p {
     font-size: 20px;
-   
 }
 * {
     margin: 0;
