@@ -53,3 +53,15 @@ header {
     background: #f4f4f4;
     text-align: center;
 }
+#section-c {
+    overflow: hidden;
+}
+.box {
+    float: left;
+    width: 30%;
+    background: #fff2e1;
+    margin-right: 5%;   
+}
+.section-c .box:last-child {
+    margin-right: 0 ;
+}
