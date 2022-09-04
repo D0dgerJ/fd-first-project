@@ -92,15 +92,16 @@ header {
     border-spacing: 0px;
 }
 .grid td {
-    padding: 20px;
 	width: 33.3%;
 	vertical-align: top;
 	padding: 0;
 }
 .item1 {
+    padding: 20px;
     background: #926239;
     color: #fff;
 }
 .item2 {
+    padding: 20px;
     background: #f9f9f9;
 }
