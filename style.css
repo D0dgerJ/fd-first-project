@@ -1,9 +1,7 @@
 body {
-    background-attachment: fixed;
     margin: 0;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 17px;
-    text-align: center;
     color: #926239;
     line-height: 1.6;
 }
@@ -15,14 +13,6 @@ header {
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
-#showcase {
-    position: absolute;
-    top: 44%;
-    left: 50%;
-    margin-right: 50%;
-    transform: translate(-50%, -50%);
-    margin-bottom: 0;
 }
 #showcase h1 {
     font-size: 50px;
