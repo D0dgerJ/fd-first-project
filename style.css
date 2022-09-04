@@ -1,3 +1,90 @@
+body {
+    margin: 0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 17px;
+    color: #926239;
+    line-height: 1.6;
+}
+header {
+    background-image: url(./imagans/2.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: 100vh;
+    display: block;
+}
+#showcase h1 {
+    padding-top: 21%;
+}
+.one {
+    font-size: 50px;
+}
+.two {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+#showcase .button {
+    font-weight: normal;
+    font-size: 18px;
+    text-decoration: none;
+    color: #926239;
+    border: #926239 1px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+   
+}
+header {
+    display: block;
+}  
+#section-a {
+    padding: 20px;
+    background: #926239;
+    color: #fff;
+    text-align: center;
+}
+#section-b {
+    padding: 20px;
+    background: #f4f4f4;
+    text-align: center;
+} 
+#section-c {
+    display: table;
+	width: 100%;
+	border-collapse: collapse;
+}
+.raw {
+    display: table-row;
+}
+.box-1, .box-3 {
+    display: table-cell;	
+	width: 33%;
+	vertical-align: top;
+	padding: 0;
+	background: #926239;
+	border-right: 30px solid #926239;
+	border-left: 30px solid #926239;
+}
+.box-2 {
+    display: table-cell;	
+	width: 33%;
+	vertical-align: top;
+	padding: 0;
+	background: #f4f4f4;
+	border-right: 30px solid #f4f4f4;
+	border-left: 30px solid #f4f4f4;
+}
+.textcols-row .textcols-item:first-child {
+	border-left: none;
+}
+.textcols-row .textcols-item:last-child {
+	border-right: none;
+}
 .grid {
 	width: 100%;
 	border: none;
