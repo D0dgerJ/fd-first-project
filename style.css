@@ -86,13 +86,13 @@ header {
 	border-right: none;
 }
 .grid {
-    padding: 20px;
 	width: 100%;
 	border: none;
 	border-collapse: separate;
     border-spacing: 0px;
 }
 .grid td {
+    padding: 20px;
 	width: 33.3%;
 	vertical-align: top;
 	padding: 0;
