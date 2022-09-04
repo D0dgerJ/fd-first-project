@@ -54,25 +54,28 @@ header {
     text-align: center;
 } 
 #section-c {
-    white-space: nowrap;
-	font-size: 0;
-    line-height: 1.6
+    display: table;
+	width: 100%;
+	border-collapse: collapse;
+}
+.raw {
+    display: table-row;
 }
 #section-c .box-1, #section-c .box-3 {
-    white-space: normal;	
-	display: inline-block;
-	width: 30%;
+    display: table-cell;	
+	width: 33%;
 	vertical-align: top;
+	padding: 0;
 	background: #926239;
-	margin-right: 5%;
-	font-size: 14px;
+	border-right: 30px solid #926239;
+	border-left: 30px solid #926239;
 }
 #section-c .box-2 {
-    white-space: normal;	
-	display: inline-block;
-	width: 30%;
+    display: table-cell;	
+	width: 33%;
 	vertical-align: top;
+	padding: 0;
 	background: #f4f4f4;
-	margin-right: 5%;
-	font-size: 14px;
+	border-right: 30px solid #f4f4f4;
+	border-left: 30px solid #f4f4f4;
 }
