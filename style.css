@@ -61,7 +61,7 @@ header {
 .raw {
     display: table-row;
 }
-#section-c .box-1, #section-c .box-3 {
+.box-1, .box-3 {
     display: table-cell;	
 	width: 33%;
 	vertical-align: top;
@@ -70,7 +70,7 @@ header {
 	border-right: 30px solid #926239;
 	border-left: 30px solid #926239;
 }
-#section-c .box-2 {
+.box-2 {
     display: table-cell;	
 	width: 33%;
 	vertical-align: top;
@@ -78,4 +78,10 @@ header {
 	background: #f4f4f4;
 	border-right: 30px solid #f4f4f4;
 	border-left: 30px solid #f4f4f4;
+}
+.textcols-row .textcols-item:first-child {
+	border-left: none;
+}
+.textcols-row .textcols-item:last-child {
+	border-right: none;
 }
