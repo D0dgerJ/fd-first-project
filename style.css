@@ -15,8 +15,9 @@ header {
     margin-right: auto;
 }
 #showcase h1 {
+
     font-size: 50px;
-    line-height: 1.2;
+    line-height: 50vh;
     
 }
 #showcase p {
