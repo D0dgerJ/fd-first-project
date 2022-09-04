@@ -1,23 +1,10 @@
-.textcols {
-	white-space: nowrap;
-	font-size: 0;
+.grid {
+	width: 100%;
+	border: none;
+	border-collapse: separate;
 }
-.textcols-item1 .textcols-item3 {
-	white-space: normal;	
-	display: block;
-	width: 33.3333333%;
-
-	background: #fff2e1;
-	font-size: 14px;
-}
-.textcols-item2 {
-	white-space: normal;	
-	display: block;
-	width: 33.3333333%;
-
-	background: #d61b0e;
-	font-size: 14px;
-}
-.textcols .textcols-item:last-child {
-	margin-right: 0 ;
+.grid td {
+	width: 33.3%;
+	vertical-align: top;
+	padding: 0;
 }
