@@ -53,19 +53,3 @@ header {
     background: #f4f4f4;
     text-align: center;
 }
-#section-c {
-    white-space: nowrap;
-	font-size: 0;
-}
-.box {
-    white-space: normal;	
-	display: inline-block;
-	width: 30%;
-	vertical-align: top;
-	background: #926239;
-	margin-right: 5%;
-	font-size: 14px;
-}
-.section-c .box:last-child {
-    margin-right: 0 ;
-}
