@@ -9,6 +9,7 @@ header {
     background-image: url(./imagans/2.jpg);
     background-size: cover;
     background-position: center;
+    text-align: center;
     height: 100vh;
     display: block;
 
@@ -16,7 +17,7 @@ header {
 #showcase h1 {
 
     font-size: 50px;
-    line-height: 50vh;
+    line-height: 60vh;
     
 }
 #showcase p {
