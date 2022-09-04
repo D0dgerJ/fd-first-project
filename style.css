@@ -4,17 +4,17 @@
 }
 .textcols-item1 .textcols-item3 {
 	white-space: normal;	
-	display: inline-block;
+	display: block;
 	width: 33.3333333%;
-	vertical-align: top;
+
 	background: #fff2e1;
 	font-size: 14px;
 }
 .textcols-item2 {
 	white-space: normal;	
-	display: inline-block;
+	display: block;
 	width: 33.3333333%;
-	vertical-align: top;
+
 	background: #d61b0e;
 	font-size: 14px;
 }
