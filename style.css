@@ -5,14 +5,22 @@ body {
     color: #926239;
     line-height: 1.6;
 }
-#showcase {
+header {
     background-image: url(./imagans/2.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
     display: block;
-    text-align: center;
-    padding: 0 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#showcase {
+    position: absolute;
+    top: 44%;
+    left: 50%;
+    margin-right: 50%;
+    transform: translate(-50%, -50%);
+    margin-bottom: 0;
 }
 #showcase h1 {
     font-size: 50px;
